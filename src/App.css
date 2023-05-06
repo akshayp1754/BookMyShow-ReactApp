@@ -1,0 +1,23 @@
+ body {
+    background-color: #101426;
+ }
+
+ .d-flex{
+   margin:15px, 50%
+}
+
+.d-flex  div  {
+   display: flex;
+   padding-left: 5px;
+}
+
+
+.d-flex  div a {
+   display: block;
+   padding-left: 10px;
+}
+
+div .box div.movie-name {
+   color: red;
+   font-weight: 500;
+}
