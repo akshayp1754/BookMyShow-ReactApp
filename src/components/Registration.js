@@ -25,7 +25,7 @@ function Registration() {
     };
     //  console.log(userDetails);
     const response = await axios
-      .post("http://localhost:5000/user-register", userDetails)
+      .post("https://bms-backend-be5t.onrender.com/user-register", userDetails)
       .then(() => {
         Swal.fire({
           icon: "success",

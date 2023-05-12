@@ -9,7 +9,7 @@ function AllMoviesFetch() {
 
   async function fetchData() {
     try {
-      const response = await axios.get("http://localhost:5000/movies");
+      const response = await axios.get("https://bms-backend-be5t.onrender.com/movies");
       setData(response.data);
     } catch (error) {
       console.log(error);

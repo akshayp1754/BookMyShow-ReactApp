@@ -12,7 +12,7 @@ function SingleMovieFetch() {
 
   async function fetchData() {
     try {
-      const response = await axios.get(`http://localhost:5000/movies/${movid}`);
+      const response = await axios.get(`https://bms-backend-be5t.onrender.com/movies/${movid}`);
       console.log(response);
       setSingleData([response.data]);
     } catch (error) {
@@ -21,9 +21,9 @@ function SingleMovieFetch() {
   }
 
   useEffect(() => {
-    fetchData();
-  }, []);
-  return (
+    fetchData();// eslint-disable-next-line
+  }, []); 
+  return ( // eslint-disable-next-line
     <div>
       <Container
         fluid
@@ -65,7 +65,7 @@ export default SingleMovieFetch;
 /* useEffect(() => {
     async function fetchData() {
       try {
-        const response = await axios.get(`http://localhost:5000/movies/${movid}`);
+        const response = await axios.get(`https://bms-backend-be5t.onrender.com/movies/${movid}`);
         console.log(response);
         setSingleData([response.data]);
       } catch (error) {
