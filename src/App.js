@@ -13,6 +13,14 @@ import Registration from "./components/Registration";
 // import AllMovies from "./components/AllMovies";
 
 function App() {
+  const hover= () => {
+    const handleMouseOver = (e) => {
+      e.target.style.cursor = 'pointer';
+    };
+  
+    const handleMouseOut = (e) => {
+      e.target.style.textDecoration = 'none';
+    };}
   return (
     <div>
       <Header />

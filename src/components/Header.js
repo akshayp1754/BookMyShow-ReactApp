@@ -6,7 +6,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
-function Header() {
+function Header()  {
   return (
     <div>
       <Navbar bg="dark" expand="lg" variant="dark">
@@ -60,24 +60,100 @@ function Header() {
                 aria-label="Search"
               />
               <Button variant="outline-success">Search</Button>
+              <Button variant="danger" style={{ marginLeft: "15px" }}>
+                Signin
+              </Button>
             </Form>
           </Navbar.Collapse>
         </Container>
       </Navbar>
 
-      <Container fluid className="d-flex" expand="lg"  style={{ background: "black", color: "white",  justifyContent:"space-between" }}>
-        <div>
-        <a>Movies</a>
-        <a>Stream</a>
-        <a></a>
-        <a></a>
-        <a></a>
-        <a></a>
-        <a></a>
+      <Container
+        fluid
+        className="d-flex"
+        expand="lg"
+        style={{
+          background: "black",
+          color: "white",
+          justifyContent: "space-between",
+        }}
+      >
+        <div className="d-flex" style={{ marginLeft: "80px", padding: "5px", gap: "15px" }}>
+          <a
+            onMouseOver={(e) => {
+              e.target.style.cursor = "pointer";
+            }}
+            onMouseOut={(e) => {
+              e.target.style.textDecoration = "none";
+            }}
+          >
+            Movies
+          </a>
+          <a
+            onMouseOver={(e) => {
+              e.target.style.cursor = "pointer";
+            }}
+            onMouseOut={(e) => {
+              e.target.style.textDecoration = "none";
+            }}
+          >
+            Stream
+          </a>
+          <a
+            onMouseOver={(e) => {
+              e.target.style.cursor = "pointer";
+            }}
+            onMouseOut={(e) => {
+              e.target.style.textDecoration = "none";
+            }}
+          >
+            Events
+          </a>
+          <a
+            onMouseOver={(e) => {
+              e.target.style.cursor = "pointer";
+            }}
+            onMouseOut={(e) => {
+              e.target.style.textDecoration = "none";
+            }}
+          >
+            Plays
+          </a>
+          <a
+            onMouseOver={(e) => {
+              e.target.style.cursor = "pointer";
+            }}
+            onMouseOut={(e) => {
+              e.target.style.textDecoration = "none";
+            }}
+          >
+            Sports
+          </a>
+          <a
+            onMouseOver={(e) => {
+              e.target.style.cursor = "pointer";
+            }}
+            onMouseOut={(e) => {
+              e.target.style.textDecoration = "none";
+            }}
+          >
+            Activities
+          </a>
+          <a
+            onMouseOver={(e) => {
+              e.target.style.cursor = "pointer";
+            }}
+            onMouseOut={(e) => {
+              e.target.style.textDecoration = "none";
+            }}
+          >
+            buzz
+          </a>
+          
         </div>
 
-        <div>
-          <a>Your Show</a>
+        <div style={{ marginRight: "70px", padding: "5px", gap: "15px" }}>
+          <a>ListYourShow</a>
           <a>Corporates</a>
           <a>Offers</a>
           <a>Gift Cards</a>
