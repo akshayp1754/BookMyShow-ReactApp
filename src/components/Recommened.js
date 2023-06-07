@@ -23,32 +23,7 @@ function Recommened() {
       </Card>
      
       
-              {/* <Card
-                style={{
-                  backgroundColor: "#f5f5f5",
-                  color: "black",
-                  position:"relative",
-                  borderRadius: "15px",
-                }}
-              >
-                <Card.Img
-                  variant="top"
-                  src="salman.jpg"
-                  style={{
-                    borderRadius: "10px",
-                    width: "222px",
-                    height: "378px",
-                    position:"absolute",
-                    width:"100%",
-                    height: "360px",
-                  }}
-                />
-
-                <footer style={{ marginTop: "10px" }}>
-                  <div>Shazam! Fury of the Gods</div>
-                  <div>English</div>
-                </footer>
-              </Card> */}
+             
               <Card 
                 style={{
                   paddingLeft: "18px",

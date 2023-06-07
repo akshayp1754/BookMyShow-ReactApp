@@ -80,8 +80,8 @@ function CardSlider() {
         </Carousel.Item>
       </Carousel>
 
-      <div style={{ margin: "80px", width: "100%" }}>
-        <img src="stream.png" style={{ width: "1240px" }}></img>
+      <div style={{ margin: "80px", marginRight:"25px"}}>
+        <img src="stream.png" style={{ width: "1200px" }}></img>
       </div>
     </div>
   );
